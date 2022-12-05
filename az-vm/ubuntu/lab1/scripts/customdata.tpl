@@ -20,7 +20,7 @@ sudo apt-get install -y bash-completion &&
 echo 'source <(kubectl completion bash)' >>~/.bashrc &&
 sudo apt install -y maven &&
 sudo snap install helm --classic &&
-sudo usermod -aG docker azureuser && sudo usermod -aG docker $USER && newgrp docker &&
+sudo usermod -aG docker azureuser && sudo usermod -aG docker ${USER} && newgrp docker &&
 sudo minikube start
 # &&
 # minikube addons enable metrics-server && minikube addons enable ingress &&

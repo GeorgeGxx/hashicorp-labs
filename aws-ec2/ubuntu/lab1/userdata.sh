@@ -19,7 +19,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 #sudo apt-get install -y bash-completion &&
 #echo 'source <(kubectl completion bash)' >>~/.bashrc &&
 sudo apt install -y maven &&
-sudo usermod -aG docker ubuntu && sudo usermod -aG docker $USER && newgrp docker 
+sudo usermod -aG docker ${USER}
 # &&
 # minikube start
 # &&

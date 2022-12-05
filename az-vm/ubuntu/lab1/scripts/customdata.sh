@@ -12,7 +12,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - &&
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" &&
 sudo apt-get update -y &&
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y &&
-sudo usermod -aG docker azureuser && sudo usermod -aG docker ${USER} &&
+sudo usermod -aG docker ${USER} &&
 sudo apt-get install -y wget &&
 sudo wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 -O /usr/local/bin/minikube &&
 sudo chmod +x /usr/local/bin/minikube &&
