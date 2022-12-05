@@ -24,5 +24,4 @@ sudo usermod -aG docker azureuser && sudo usermod -aG docker $USER && newgrp doc
 sudo minikube start
 # &&
 # minikube addons enable metrics-server && minikube addons enable ingress &&
-# sudo mkdir repos && cd repos/ && sudo git clone -b master https://github.com/GeorgeGxx/docker-labs.git && cd docker-labs/ && sudo docker compose up -d
-# sudo git clone -b master https://github.com/GeorgeGxx/springboot-micro-docker.git && cd springboot-micro-docker/docker-compose/ && sudo docker compose up -d
+# sudo mkdir repos && cd repos/ && sudo git clone -b master https://github.com/GeorgeGxx/springboot-micro-docker.git && cd springboot-micro-docker/docker-compose/ && sudo docker compose up -d
